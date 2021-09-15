@@ -4,7 +4,7 @@
 
 
 <h1 align="center">
-    <img alt="portifolio" src="https://i.ibb.co/tBcQvkX/c.png" />
+    <img alt="portifolio" src="https://i.ibb.co/cyNqLx0/cc.jpg" />
 </h1>
 
 <br>
