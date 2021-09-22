@@ -11,10 +11,14 @@ export default createGlobalStyle`
   html, body, #root {
     height: 100%;
   }
+  body {
+    background: var(--Black);
+  }
   *, button, input {
     border: 0;
     outline: 0;
     font-family: 'DM Sans', sans-serif;
+    color: var(--White);
   }
   img {
     width: 100%;
