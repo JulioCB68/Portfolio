@@ -5,7 +5,6 @@ export const Container = styled.div`
 	max-width: 1600px;
 	margin: 0 auto;
 	color: var(--White);
-	position: relative;
 `;
 
 //---------------------------------- NAVBAR ----------------------------------//
@@ -14,7 +13,6 @@ export const Navbar = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -73,3 +71,72 @@ export const Links = styled.a`
     color: var(--Green);
   }
 `;
+
+//---------------------------------- MAIN ----------------------------------//
+
+export const Main = styled.div`
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  padding: 9rem 0;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding: 9rem 2rem;
+  }
+`;
+
+export const Resume = styled.div`
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+`;
+
+export const Text = styled.p`
+  width: 13rem;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  @media (max-width: 768px) {
+    width: 100%;
+    font-size: 26px;
+  }
+`;
+
+export const SubText =  styled.p`
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #828282;
+  padding: 1rem 0 2rem;
+`;
+
+export const ContainerButtons =  styled.div`
+  display: flex;
+  width: 47%;
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 1rem 0;
+  }
+`;
+
+export const ImageContainer = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  @media (max-width: 768px) {
+    justify-content: center;
+    margin: 2rem 1rem;
+  }
+`;
+
+export const Image = styled.img`
+	width: 70%;
+`;
+
+
+
+// proximo commit colocar "fix navbar"
