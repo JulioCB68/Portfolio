@@ -5,6 +5,7 @@ export const Container = styled.div`
 	max-width: 1600px;
 	margin: 0 auto;
 	color: var(--White);
+  overflow: hidden;
 `;
 
 //---------------------------------- NAVBAR ----------------------------------//
@@ -109,7 +110,7 @@ export const SubText =  styled.p`
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
-  color: #828282;
+  color: var(--GreyLight);
   padding: 1rem 0 2rem;
 `;
 
@@ -137,6 +138,38 @@ export const Image = styled.img`
 	width: 70%;
 `;
 
+export const About = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @media (max-width: 768px) {
+		padding: 0 2rem;
+	}
+`;
 
+export const AboutMe = styled.p`
+  text-align: center;
+  padding: 1.875rem;
+  width: 46.563rem;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--GreyLight);
+  @media (max-width: 768px) {
+		width: 100%;
+	}
+`;
 
-// proximo commit colocar "fix navbar"
+export const Contact = styled.div`
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 5rem 0;
+  @media (max-width: 768px) {
+		grid-template-columns: 1fr;
+    grid-gap: 5rem;
+	}
+`;
+
