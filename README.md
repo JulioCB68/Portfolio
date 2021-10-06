@@ -4,7 +4,7 @@
 
 
 <h1 align="center">
-    <img alt="portifolio" src="https://i.ibb.co/74DRVcD/Portf-lio.png" />
+    <img alt="portifolio" src="https://i.ibb.co/dG2wScK/Fire-Shot-Capture-001-React-App-localhost.png" />
 </h1>
 
 <br>
