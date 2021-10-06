@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-	width: 100%;
-	max-width: 1600px;
-	margin: 0 auto;
-	color: var(--White);
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  color: var(--White);
   overflow: hidden;
 `;
 
@@ -17,18 +17,18 @@ export const Navbar = styled.div`
   top: 0;
   left: 0;
   right: 0;
-	@media (max-width: 768px) {
-		padding: 0 2rem;
-		border-bottom: 1px solid var(--White);
-	}
+  @media (max-width: 768px) {
+    padding: 0 2rem;
+    border-bottom: 1px solid var(--White);
+  }
 `;
 
 export const Logo = styled.a`
   padding: 1rem 0;
   text-decoration: none;
-	font-weight: bold;
-	font-size: 1.5rem;
-	line-height: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
 `;
 
 export const Hamburger = styled.div`
@@ -66,8 +66,8 @@ export const Links = styled.a`
   text-align: center;
   text-decoration: none;
   transition: all 0.3s ease-in;
-	font-size: 1rem;
-	line-height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   &:hover {
     color: var(--Green);
   }
@@ -76,9 +76,9 @@ export const Links = styled.a`
 //---------------------------------- MAIN ----------------------------------//
 
 export const Main = styled.div`
-	width: 100%;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 9rem 0;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -106,7 +106,7 @@ export const Text = styled.p`
   }
 `;
 
-export const SubText =  styled.p`
+export const SubText = styled.p`
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
@@ -114,7 +114,7 @@ export const SubText =  styled.p`
   padding: 1rem 0 2rem;
 `;
 
-export const ContainerButtons =  styled.div`
+export const ContainerButtons = styled.div`
   display: flex;
   width: 47%;
   @media (max-width: 768px) {
@@ -135,7 +135,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-	width: 70%;
+  width: 70%;
 `;
 
 export const About = styled.div`
@@ -144,8 +144,8 @@ export const About = styled.div`
   justify-content: center;
   flex-direction: column;
   @media (max-width: 768px) {
-		padding: 0 2rem;
-	}
+    padding: 0 2rem;
+  }
 `;
 
 export const AboutMe = styled.p`
@@ -157,8 +157,8 @@ export const AboutMe = styled.p`
   text-align: center;
   color: var(--GreyLight);
   @media (max-width: 768px) {
-		width: 100%;
-	}
+    width: 100%;
+  }
 `;
 
 export const Contact = styled.div`
@@ -168,8 +168,118 @@ export const Contact = styled.div`
   grid-gap: 1rem;
   padding: 5rem 0;
   @media (max-width: 768px) {
-		grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 5rem;
-	}
+  }
 `;
 
+export const Projects = styled.div`
+  padding: 7rem 0;
+`;
+
+export const ProjectTitle = styled.h1`
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  color: #f9f9f9;
+  padding: 1.875rem 0;
+`;
+
+export const Project = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3rem 5rem;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+    padding: 0 2rem;
+  }
+`;
+
+export const Services = styled.div`
+  padding: 8rem 0;
+`;
+
+export const ServicesTitle = styled.div`
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #f9f9f9;
+  padding: 1.875rem 0;
+`;
+
+export const Service = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5rem;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+    padding: 0 2rem;
+  }
+`;
+
+export const Skills = styled.div`
+  padding: 0 0 5rem;
+`;
+
+export const SkillsTitle = styled.div`
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height */
+
+  text-align: center;
+  padding: 5rem 0;
+  color: #f9f9f9;
+`;
+
+export const Skill = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5rem;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-gap: 5rem;
+    padding: 0 2rem;
+  }
+`;
+
+export const Footer = styled.div`
+  width: 100%;
+  height: 3.75rem;
+  background: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const TextFooter = styled.p`
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #f9f9f9;
+
+  >span {
+    color: #00DF5E;
+  }
+`;

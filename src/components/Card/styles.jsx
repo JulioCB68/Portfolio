@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import {props} from './index';
-
 export const Card = styled.div`
 	width: 100%;
 	display: flex;

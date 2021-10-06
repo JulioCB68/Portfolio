@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import {props} from './index';
-
 export const Button = styled.button`
 	width: 100%;
 	background: ${props => props.primary ? "var(--Green)" : "var(--White)"};
