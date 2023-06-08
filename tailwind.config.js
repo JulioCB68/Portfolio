@@ -8,6 +8,18 @@ module.exports = {
   theme: {
     extend: {
       screens: { sm: "480px", md: "768px", lg: "976px", xl: "1440pd" },
+      colors: {
+        header: "#24292f",
+
+        bgPrimary: "#0d1117",
+        bgSecondary: "#161b22",
+
+        gray: "#d0d7de",
+        lightGray: "#f6f8fa",
+        darkGray: "#8e95a4",
+
+        primary: "#e6edf3",
+      },
     },
   },
   darkMode: "class",
