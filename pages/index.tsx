@@ -1,6 +1,7 @@
 import { ThemeProvider } from "next-themes";
 
 import Header from "@/components/Header/Header";
+import Hero from "@/components/Hero";
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const Home: React.FC = () => {
         {/* Header */}
         <Header />
 
-        {/* Hero */}
+        <Hero />
 
         {/* About */}
 
