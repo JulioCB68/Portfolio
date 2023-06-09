@@ -12,6 +12,11 @@
     "About": "About",
     "Projects": "Projects",
 
-    "Title": "Hi, I'm Júlio!"
+    "Title": "Hi, I'm Júlio!",
+    "description1": "I'm a",
+    "description2": "FrontEnd Developer",
+    "description3": ", live in Campinas - SP, BR. Working towards creating software that makes life easier and more meaningful.",
+
+    "projects": "Projects"
   }
 }

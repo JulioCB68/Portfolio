@@ -10,6 +10,13 @@
 
     "Home": "Comenzar",
     "About": "Acerca de",
-    "Projects": "Proyectos"
+    "Projects": "Proyectos",
+
+    "Title": "¡Hola, soy Julio!",
+    "description1": "Soy un",
+    "description2": "Desarrollador front-end",
+    "description3": ", vivo en campinas - SP, BR. Trabajando para crear software que haga la vida más fácil y significativa.",
+
+    "projects": "Proyectos"
   }
 }

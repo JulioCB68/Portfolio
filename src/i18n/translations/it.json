@@ -9,6 +9,13 @@
 
     "Home": "Inizio",
     "About": "Di",
-    "Projects": "Progetti"
+    "Projects": "Progetti",
+
+    "Title": "Ciao, sono Julio!",
+    "description1": "Io sono un",
+    "description2": "Sviluppatore Front End",
+    "description3": ", vivo a Campinas - SP, BR. Lavorare per creare software che renda la vita più facile e più significativa.",
+
+    "projects": "Progetii"
   }
 }

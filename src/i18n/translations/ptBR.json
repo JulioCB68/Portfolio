@@ -12,6 +12,11 @@
     "About": "Sobre",
     "Projects": "Projetos",
 
-    "Title": "Olá, eu sou Júlio!"
+    "Title": "Olá, eu sou Júlio!",
+    "description1": "Eu sou um",
+    "description2": "Desenvolvedor Front-End",
+    "description3": ", resido em Campinas - SP, BR. Trabalhando para a criação de software que torna a vida mais fácil e mais significativa.",
+
+    "projects": "Projetos"
   }
 }

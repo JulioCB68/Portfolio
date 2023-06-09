@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 z-50 mx-auto w-full bg-white px-4 shadow dark:bg-header sm:px-10">
-      <div className="mx-auto max-w-4xl justify-between md:flex md:items-center">
+      <div className="mx-auto max-w-7xl justify-between md:flex md:items-center">
         <div>
           <div className="flex items-center justify-between py-3 md:block md:py-5">
             <Link href="home">

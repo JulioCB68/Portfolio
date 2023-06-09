@@ -10,6 +10,13 @@
 
     "Home": "Commencer",
     "About": "À propos",
-    "Projects": "Projets"
+    "Projects": "Projets",
+
+    "Title": "Salut, je suis Julio !",
+    "description1": "Je suis un",
+    "description2": "Développeur frontal",
+    "description3": ", j'habite à Campinas - SP, BR. Travailler à la création de logiciels qui rendent la vie plus facile et plus significative.",
+
+    "projects": "Projets"
   }
 }
