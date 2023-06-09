@@ -2,6 +2,7 @@ import { ThemeProvider } from "next-themes";
 
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero";
+import About from "@/components/About/About";
 
 const Home: React.FC = () => {
   return (
@@ -13,7 +14,7 @@ const Home: React.FC = () => {
         <Hero />
 
         {/* About */}
-
+        <About />
         {/* Experience */}
 
         {/* Skills */}

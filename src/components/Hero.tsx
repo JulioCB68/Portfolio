@@ -41,7 +41,7 @@ export default function Hero() {
           </p>
 
           <Link
-            href="projects"
+            href="#projects"
             className="rounded bg-purple px-6 py-3 font-semibold text-neutral-100 shadow hover:bg-purpleDark"
           >
             {t("Projects")}
@@ -49,7 +49,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="flex flex-row items-center justify-center text-center ">
-        <Link href="about">
+        <Link href="#about">
           <HiArrowDown size={35} className="animate-bounce text-purple" />
         </Link>
       </div>
